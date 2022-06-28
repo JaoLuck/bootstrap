@@ -40,3 +40,19 @@ body{
 	transform: scale(1.2) rotateY(360deg);
 	cursor: pointer;
 }
+
+.menu-desabilitado{
+	color: #808080;
+}
+
+.menu-ativo{
+	color: #000000
+}
+
+.menu-desabilitado:hover{
+	color: #000000
+}
+
+.menu-ativo:hover{
+	color: #000000
+}
