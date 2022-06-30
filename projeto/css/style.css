@@ -46,13 +46,25 @@ body{
 }
 
 .menu-ativo{
-	color: #000000
+	color: #000000;
 }
 
 .menu-desabilitado:hover{
-	color: #000000
+	color: #000000;
 }
 
 .menu-ativo:hover{
-	color: #000000
+	color: #000000;
+}
+
+.pokemon:hover{
+	color: #FFFAFA;
+}
+
+.teste{
+	background-color:#000080;
+}
+
+.texto-reduzido{
+	color: #FFFAFA;
 }
