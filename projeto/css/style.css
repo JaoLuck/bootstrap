@@ -78,5 +78,15 @@ body{
 	width: 1080px;
 	height: 500px;
 	margin-left: 20%;
-	margin-bottom: 2%
+	margin-bottom: 2%;
 }
+
+.tamanho-input{
+	width: 300px;
+	margin-left: 125px;
+}
+
+.login{
+	margin-left: 20%;
+}
+
