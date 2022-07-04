@@ -27,15 +27,29 @@
 							<div class="cardy-body" style="margin-top: 5%; margin-bottom: 5%;">
 								<h2 class="card-title" style="margin-top:2%;">Cadastrar</h2>
 					<hr />
-					
-							<label for="emaile" class="form-label">Digite seu email</label>
-							<input type="email" class="form-control" id="emaile">
+							<form method="get" action="#">
+							<label for="nome-user" class="form-label">Digite um nome</label>
+							<input type="text" class="form-control" id="nome-user" required>		
 							
-							<label for="senha" class="form-label" style="margin-top: 5%;">Digite sua senha</label>
-							<input type="password" class="form-control" id="senha">
 							
-							<p style="margin-top:5%"><small>Não possui cadastro?</small></p>
-							<a href="cadastro.html"><small>Cadastre-se</small></a>
+							<label for="emaile" class="form-label">Digite um email</label>
+							<input type="email" class="form-control" id="emaile" required>
+							
+							<label for="telefoneC" class="form-label">Digite seu telefone</label>
+							<input type="tel" class="form-control" id="telefoneC" required>
+							
+							<label for="senha" class="form-label" style="margin-top: 5%;">Digite uma senha</label>
+							<input type="password" class="form-control" id="senha" required>
+							
+							<label for="senhaC" class="form-label">Confirme sua senha</label>
+							<input type="password" class="form-control" id="senhaC" required>
+							
+	
+							<button class="btn btn-primary" type="button" onclick="validarformulario()" style="margin-top: 3%">Cadastrar-se</button>
+							</form>
+							
+							<p style="margin-top:5%"><small>Já possui cadastro?</small></p>
+							<a href="entrar.html"><small>Faça o login</small></a>
 						</div>
 					</div>
 				</div>
