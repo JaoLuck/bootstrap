@@ -1,6 +1,6 @@
 function validarformulario(){
 	//CONTATOS
-	let nome = document.getElementById("nome-completo"). value
+	/*let nome = document.getElementById("nome-completo"). value
 	let email = document.getElementById("email").value
 	let telefone = document.getElementById("telefone").value
 	let estado = document.getElementById("estado").value
@@ -14,7 +14,7 @@ function validarformulario(){
 	let senhaC = document.getElementById("senhaC").value*/
 	
 	
-	if(email == ""){
+	/*if(email == ""){
 		alert("O campo email está vazio")
 		
 	}
