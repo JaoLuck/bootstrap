@@ -27,13 +27,15 @@
 							<div class="cardy-body" style="margin-top: 5%; margin-bottom: 5%;">
 								<h2 class="card-title" style="margin-top:2%;">Login</h2>
 					<hr />
-					
-							<label for="emaile" class="form-label">Digite seu email</label>
-							<input type="email" class="form-control" id="emaile">
+							<form method="get" action="#">
+							<label for="emai" class="form-label">Digite seu email</label>
+							<input type="email" class="form-control" id="emai" required>
 							
-							<label for="senha" class="form-label" style="margin-top: 5%;">Digite sua senha</label>
-							<input type="password" class="form-control" id="senha">
+							<label for="sena" class="form-label" style="margin-top: 5%;">Digite sua senha</label>
+							<input type="password" class="form-control" id="sena" required>
 							
+								<button class="btn btn-primary" type="submit" onclick="validarformulario3()" style="margin-top: 3%">Entrar</button>
+							</form>
 							<p style="margin-top:5%"><small>Não possui cadastro?</small></p>
 							<a href="cadastro.html"><small>Cadastre-se</small></a>
 						</div>

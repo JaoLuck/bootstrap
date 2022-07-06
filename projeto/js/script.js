@@ -1,20 +1,12 @@
 function validarformulario(){
 	//CONTATOS
-	/*let nome = document.getElementById("nome-completo"). value
+	let nome = document.getElementById("nome-completo"). value
 	let email = document.getElementById("email").value
 	let telefone = document.getElementById("telefone").value
 	let estado = document.getElementById("estado").value
 	let cidade = document.getElementById("cidade").value
-	
-	//CADASTRO
-	/*let nomeUser = document.getElementById("nome-user").value
-	let emaile = document.getElementById("emaile").value
-	let telefoneC = document.getElementById("telefoneC").value
-	let senha = document.getElementById("senha").value
-	let senhaC = document.getElementById("senhaC").value*/
-	
-	
-	/*if(email == ""){
+			
+	if(email == ""){
 		alert("O campo email está vazio")
 		
 	}
@@ -42,13 +34,35 @@ function validarformulario(){
 	console.log(telefone)
 	console.log(estado)
 	console.log(cidade)
-	/*if(senha != senhaC ){
+
+}	
+
+function validarformulario2(){
+	
+	
+	//CADASTRO
+	let nomeUser = document.getElementById("nome-user").value
+	let emaile = document.getElementById("emaile").value
+	let telefoneC = document.getElementById("telefoneC").value
+	let senha = document.getElementById("senha").value
+	let senhaC = document.getElementById("senhaC").value
+	
+	
+	if(senha != senhaC ){
 		alert("as senhas estão diferentes")
 	}
+	else{
 	console.log(nomeUser)
 	console.log(emaile)
 	console.log(telefoneC)
 	console.log(senha)
-	console.log(senhaC)*/
+	console.log(senhaC)
+	}
+}
+
+
+function validarformulario3(){
 	
-}	
+	let emai= document.getElementById("emai").value
+	let sena = document.getElementById("sena").value
+}
