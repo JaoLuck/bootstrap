@@ -61,8 +61,3 @@ function validarformulario2(){
 }
 
 
-function validarformulario3(){
-	
-	let emai= document.getElementById("emai").value
-	let sena = document.getElementById("sena").value
-}
